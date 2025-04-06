@@ -1,0 +1,294 @@
+@media (max-width: 834px) {
+    .center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header{
+        padding-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .logo--top{
+        height: 22px; 
+    }
+
+    .top__search-form,
+    .top__nav{
+        display: none;
+    }
+
+    .top{
+        margin-bottom: 29px;
+        border: none;
+        &__heading{
+            color: rgb(255, 255, 255);
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 44px;
+            letter-spacing: 0;
+            text-align: center;
+            width: auto;
+            margin-bottom: 61px;
+            &--cart{
+                font-size: 48px;
+                line-height: 59px;
+
+            }
+        }
+        &__motto{
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0;
+            text-align: center;
+        }
+        &__link{
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+        }
+        &--catalog{
+            margin-bottom: 82px;
+        }
+        &-heading-catalog{
+            flex-wrap: wrap;
+            row-gap: 16px;
+        }
+        &--cart{
+            margin-bottom: 82px;
+        }
+    }
+    
+    .mobile-menu{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        align-items: center;
+    }
+    .main{
+        padding-bottom: 32px;
+        &--cart{
+            margin-bottom: 0px;
+        }
+    }
+    .for{
+        display: grid;
+        justify-content:center;
+        margin-bottom: 48px;
+        &__content{
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 255, 255);
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        }
+        &__heading{
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0;
+            text-align: left;
+        }
+        &__item-big{
+            width: 343px;
+            height: 244px;
+        }
+        &__item-small{
+            width: 343px;
+            height: 375px;
+        }
+    }
+    .cart-content{
+    &__item{
+    width: auto;
+    padding-top: 18px;
+    padding-bottom: 24px;
+
+    }
+    &--item-left {
+        display: none;
+    }
+    &__info-heading{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        margin-bottom: 14px;
+    }
+    &__info-description{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0;
+    }
+    &__price{
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 8px;
+    }
+    }
+    .order-form {
+        margin: auto;
+        width: 343px;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    .action{
+        &__prices{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0;
+            text-align: left;
+            &__--last{
+                color: rgb(136, 136, 136);
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-decoration-line: line-through;
+            }
+        }
+        &__description{
+            margin-bottom: 8px;
+        }
+        width: 343px;
+        &-box{
+            display: grid;
+            justify-content: center;
+            margin-bottom: 22px;
+            &__heading{
+                color: rgb(0, 0, 0);
+                font-size: 18px; 
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0;
+                margin-bottom: 4px;
+                
+            }
+            &__content{
+                flex-direction: column;
+                &--cart{
+                    row-gap: 32px;
+                }
+            }
+        }
+        &__img{
+            width: 343px;
+            height: 226px;
+        }
+    }
+    .product{
+        width: 343px;
+        margin-bottom: 24px;
+        &-box{
+            display: grid;
+            justify-content: center;
+            margin-bottom: 46px;
+            &--catalog{
+                justify-content: center;
+                row-gap: 28px;
+            }
+        
+            &__heading{
+                color: rgb(0, 0, 0);
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 29px;
+                letter-spacing: 0;
+                text-align: left;
+                max-width: 343px;
+            }
+        }
+        &__heading{
+            width: 343px;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0;
+            text-align: left;
+            margin-bottom: 4px;
+
+        }
+        &__price{
+            color: rgb(5, 5, 5);
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0;
+            text-align: left;
+        }
+        &__description{
+            margin-bottom: 8px;
+        }
+        &-content{
+            flex-direction: column;
+            row-gap: 24px;
+        }
+        &__img{
+            width: 343px;
+        }
+        
+    }
+    .link-box{
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    
+    }
+    .link-box--cart{
+        display: none;
+        &-mobile {
+            display: block;
+            margin-top: 32px;
+        }
+    }
+    .footer{
+        display: flex;
+        padding-bottom: 33px;
+        &-content{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 100px;
+            row-gap: 70px;
+        }
+        &__form-heading{
+                display: none;
+                &--mobile{
+                    display: block;
+                
+            }
+        }
+        &__form{
+            align-items: center;
+        }
+    }
+
+}
+
+@media (max-width: 425px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .cart-content__name {
+        display: none;
+    }
+    .header--cart{
+        margin-bottom: 92px;
+    }
+}
